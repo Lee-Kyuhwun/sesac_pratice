@@ -1,0 +1,16 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+#asdie {
+  width: 200px;
+  margin: left;
+}
+#section {
+  width: 760px;
+  margin: left;
+}
+
+#wrap {
+  overflow: hidden;
+}
