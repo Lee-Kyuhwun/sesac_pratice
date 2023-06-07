@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <!-- 메타 데이터 섹션 -->
+    <meta charset="UTF-8" />
+    <!-- UTF-8 인코딩 사용 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 반응형 웹사이트를 위한 viewport 설정 -->
+    <title>Dream Jeju</title>
+    <!-- 웹페이지 제목 -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- CSS 스타일시트 연결 -->
+  </head>
+  <body>
+    <div id="container">
+      <!-- 전체 페이지를 감싸는 div -->
+      <header>
+        <!-- 헤더 영역 -->
+        <div id="logo">
+          <!-- 로고 영역 -->
+          <a href="index.html">
+            <h1>Dream Jeju</h1>
+            <!-- 로고 텍스트 -->
+          </a>
+        </div>
+        <nav>
+          <!-- 내비게이션 영역 -->
+          <ul id="topMenu">
+            <!-- 상단 메뉴 -->
+            <li>
+              <!-- 단체 여행 메뉴 아이템 -->
+              <a href="#">단체 여행 <span>▼</span></a>
+              <ul>
+                <!-- 서브 메뉴 -->
+                <li><a href="#">회사 연수</a></li>
+                <li><a href="#">수학 여행</a></li>
+              </ul>
+            </li>
+            <li>
+              <!-- 맞춤 여행 메뉴 아이템 -->
+              <a href="#">맞춤 여행 <span>▼</span></a>
+              <ul>
+                <!-- 서브 메뉴 -->
+                <li><a href="#">4.3 평화 기행</a></li>
+                <li><a href="#">곶자왈 체험</a></li>
+                <li><a href="#">힐링 워크샵</a></li>
+              </ul>
+            </li>
+            <li><a href="#">갤러리</a></li>
+            <!-- 갤러리 메뉴 아이템 -->
+            <li><a href="#">문의하기</a></li>
+            <!-- 문의하기 메뉴 아이템 -->
+          </ul>
+        </nav>
+      </header>
+      <div id="slideShow">
+        <!-- 슬라이드쇼 영역 -->
+        <div id="slides">
+          <!-- 슬라이드 이미지 영역 -->
+          <img src="images/photo-1.jpg" alt="" />
+          <img src="images/photo-2.jpg" alt="" />
+          <img src="images/photo-3.jpg" alt="" />
+          <button id="prev">&lang;</button>
+          <!-- 이전 슬라이드 버튼 -->
+          <button id="next">&rang;</button>
+          <!-- 다음 슬라이드 버튼 -->
+        </div>
+      </div>
+      <div id="contents">
+        <!-- 본문 내용 영역 -->
+        <div id="tabMenu">
+          <!-- 탭 메뉴 영역 -->
+          <input type="radio" id="tab1" name="tabs" checked />
+          <label for="tab1">공지사항</label>
+          <input type="radio" id="tab2" name="tabs" />
+          <label for="tab2">갤러리</label>
+          <!-- 공지사항 탭 내용 -->
+          <div id="notice" class="tabContent">
+            <h2>공지사항 내용입니다.</h2>
+            <ul>
+              <!-- 공지사항 목록 -->
+              <li>사무실을</li>
+              <li>[참가 모집] 카약 체험에 .</li>
+              <li>[참가 모집] 여름 방학 기간, 오름 체험단 .</li>
+              <li>겨울, 추천 여행지</li>
+              <li>가을, 추천 여행지</li>
+            </ul>
+          </div>
+          <!-- 갤러리 탭 내용 -->
+          <div id="gallery" class="tabContent">
+            <h2>갤러리 내용입니다.</h2>
+            <ul>
+              <!-- 갤러리 이미지 목록 -->
+              <li><img src="images/img-1.jpg" /></li>
+              <li><img src="images/img-2.jpg" /></li>
+              <li><img src="images/img-3.jpg" /></li>
+              <li><img src="images/img-1.jpg" /></li>
+              <li><img src="images/img-2.jpg" /></li>
+              <li><img src="images/img-3.jpg" /></li>
+            </ul>
+          </div>
+        </div>
+        <div id="links">
+          <!-- 링크 목록 영역 -->
+          <ul>
+            <li>
+              <!-- 평화기행 링크 -->
+              <a href="#">
+                <span id="quick-icon1"></span>
+                <p>평화기행</p>
+              </a>
+            </li>
+            <li>
+              <!-- 힐링 워크샵 링크 -->
+              <a href="#">
+                <span id="quick-icon2"></span>
+                <p>힐링 워크샵</p>
+              </a>
+            </li>
+            <li>
+              <!-- 문의하기 링크 -->
+              <a href="#">
+                <span id="quick-icon3"></span>
+                <p>문의하기</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <footer>
+        <!-- 푸터 영역 -->
+        <div id="bottomMenu">
+          <!-- 하단 메뉴 영역 -->
+          <ul>
+            <li><a href="#">피곤하다</a></li>
+            <!-- 회사 소개 링크 -->
+            <li><a href="#">개인정보처리방침</a></li>
+            <!-- 개인정보처리방침 링크 -->
+            <li><a href="#">여행약관</a></li>
+            <!-- 여행약관 링크 -->
+            <li><a href="#">사이트맵</a></li>
+            <!-- 사이트맵 링크 -->
+          </ul>
+          <div id="sns">
+            <!-- SNS 링크 영역 -->
+            <ul>
+              <li>
+                <a href="#"><img src="images/sns-1.png" /></a>
+                <!-- SNS 링크 -->
+              </li>
+              <li>
+                <a href="#"><img src="images/sns-2.png" /></a>
+                <!-- SNS 링크 -->
+              </li>
+              <li>
+                <a href="#"><img src="images/sns-3.png" /></a>
+                <!-- SNS 링크 -->
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="company">
+          <!-- 회사 정보 영역 -->
+          <p>제주특별자치도 ***동 ***로 *** (대표전화) 123-456-7890</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/slideshow.js"></script>
+    <!-- 슬라이드쇼를 위한 자바스크립트 파일 연결 -->
+  </body>
+</html>
