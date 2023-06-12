@@ -1,0 +1,15 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(·š†‡
+b
+java:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(Çµí‘
+U	java:S106
+"9Replace this use of System.out or System.err by a logger.(ä¬Ñ™8´ÉŠìŠ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÖÏ¢ş8µÉŠìŠ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(†ã´ıÿÿÿÿ8Ê–‹ìŠ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(åªãÿ8û·ŒìŠ1
+R
+java:S6035"0Replace this alternation with a character class.(ÿÕÒãıÿÿÿÿ8¶‘ìŠ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Â“–Ú8ÅìŠ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ïÊ¶õıÿÿÿÿ8¹‘ìŠ1
+P
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8£ÅìŠ1
