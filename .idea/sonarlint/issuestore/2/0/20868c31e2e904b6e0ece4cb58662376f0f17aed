@@ -1,0 +1,19 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(è…¿Ñ
+>	java:S108
+")Either remove or fill this block of code.(¿ßß“
+y
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(²ı…¦ûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(àÊÒ—üÿÿÿÿ
+>	java:S108")Either remove or fill this block of code.(¿ßß“
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(İÂ¤ùÿÿÿÿ
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(á¤Àó
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(çéëÖ
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(î…¬øÿÿÿÿ
+Q
+java:S3252)"6Use static access with "java.lang.Thread" for "sleep".(·„Ö¤ÿÿÿÿÿ
+P
+java:S2209)"5Change this instance-reference to a static reference.(·„Ö¤ÿÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(³Œİüÿÿÿÿ
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(ï—é´
+Q	java:S125-"<This block of commented-out lines of code should be removed.(â×øÜ

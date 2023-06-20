@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="kr.or.connect.reservation.Mapper.CategoryMapper">
+    <select id="getCategoriesWithDisplayCount" resultType="kr.or.connect.reservation.dto.Category">
+        SELECT c.id as id, c.name as name, COUNT(di.id) as count
+        FROM category c
+        LEFT JOIN product p ON c.id = p.category_id
+        LEFT JOIN display_info di ON p.id = di.product_id
+        GROUP BY c.id
+    </select>
+</mapper>
+
