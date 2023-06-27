@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="kr.or.connect.reservation.Mapper.DisplayInfoMapper">
+    <select id="getDisplayInfo" resultType="kr.or.connect.reservation.dto.ProductDisplayInfo">
+        SELECT
+        product.id as productId,
+        product.category_id as categoryId,
+        display_info.id as displayInfoId,
+        product.description as description,
+        product.content as content,
+        product.event as event,
+        display_info.opening_hours as openingHours,
+        display_info.place_name as placeName,
+        display_info.place_lot as placeLot,
+        display_info.place_street as placeStreet,
+        display_info.tel as tel,
+        display_info.homepage as homepage,
+        display_info.email as email,
+        product.create_date as createDate,
+        product.modify_date as modifyDate,
+        product_image.file_id as productImageId,
+        display_info_image.file_id as displayInfoImageId
+        FROM product
+        INNER JOIN display_info ON product.id = display_info.product_id
+        LEFT JOIN product_image ON product.id = product_image.product_id AND product_image.type = 'ma'
+        LEFT JOIN display_info_image ON display_info.id = display_info_image.display_info_id
+        WHERE product.id =:productId;
+
+    </select>
+
+    <select id="getAllDisplayInfo" resultType="kr.or.connect.reservation.dto.ProductDisplayInfo">
+        SELECT
+        product.id as id,
+        product.category_id as categoryId,
+        display_info.id as displayInfoId,
+
+        product.description as description,
+        product.content as content,
+        product.event as event,
+        display_info.opening_hours as openingHours,
+        display_info.place_name as placeName,
+        display_info.place_lot as placeLot,
+        display_info.place_street as placeStreet,
+        display_info.tel as tel,
+        display_info.homepage as homepage,
+        display_info.email as email,
+        product.create_date as createDate,
+        product.modify_date as modifyDate,
+        product_image.file_id as fileId
+        FROM product
+        INNER JOIN display_info ON product.id = display_info.product_id
+        LEFT JOIN product_image ON product.id = product_image.product_id AND product_image.type = 'ma'
+    </select>
+
+</mapper>
