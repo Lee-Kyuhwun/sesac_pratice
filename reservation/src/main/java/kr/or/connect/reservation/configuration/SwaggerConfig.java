@@ -1,3 +1,4 @@
+/*
 package kr.or.connect.reservation.configuration;
 
 import org.springframework.context.annotation.Bean;
@@ -33,3 +34,4 @@ public class SwaggerConfig {
                 .build();
     }
 }
+*/
