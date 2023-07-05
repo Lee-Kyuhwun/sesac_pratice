@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: dlrbg
@@ -12,5 +13,9 @@
 </head>
 <body>
 <h1>List Page</h1>
+<ul>
+
+
+</ul>
 </body>
 </html>
