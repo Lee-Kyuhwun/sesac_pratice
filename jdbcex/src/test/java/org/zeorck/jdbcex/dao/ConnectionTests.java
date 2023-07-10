@@ -1,4 +1,4 @@
-package org.zerock.dao;
+package org.zeorck.jdbcex.dao;
 
 
 import com.zaxxer.hikari.HikariConfig;
