@@ -1,0 +1,10 @@
+
+y	java:S116"XRename this field "DATEFORMATTER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ί„Θϊÿÿÿÿ8υοω›•1
+c
+java:S1989""AHandle the "ServletException" thrown here in a "try/catch" block.(«ήÿÿÿÿÿ8πω›•1
+w
+java:S1989-"ZHandle the following exception that could be thrown by "parseLong": NumberFormatException.(δαΖΔ8†πω›•1
+u
+java:S1989:"SHandle the following exception that could be thrown by "sendRedirect": IOException.(°ςΰ›ϊÿÿÿÿ8‰πω›•1
+u
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(‹Ϊ¤ª8‹πω›•1

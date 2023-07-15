@@ -34,7 +34,7 @@ public class TodoRegisterController extends HttpServlet {
             resp.sendRedirect("/login");
             return;
         }
-
+        //세션 id가 있지만 해당 세션 컨텍스트에 loginInfo라는 이름으로 저장된 객체가 없는경우
         if(session.getAttribute("loginInfo") == null){
             log.info("로그인한 정보가 없느 사용자.");
             resp.sendRedirect("/login");
@@ -43,11 +43,7 @@ public class TodoRegisterController extends HttpServlet {
 
 
         //세션 id가 있지만 해당 세션 컨텍스트에 loginInfo라는 이름으로 저장된 객체가 없는경우
-        if(session.getAttribute("loginInfo") ==null){
-            log.info("로그인한 정보가 없는 사용자");
-            resp.sendRedirect("/");
 
-        }
 
 
 
