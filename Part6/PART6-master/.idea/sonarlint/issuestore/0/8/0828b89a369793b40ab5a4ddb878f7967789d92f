@@ -1,0 +1,19 @@
+
+a
+java:S2259ˆ"JA "NullPointerException" could be thrown; "getQuerydsl()" can return null.(à¨£
+`
+java:S2259*"JA "NullPointerException" could be thrown; "getQuerydsl()" can return null.(ïÎ€Ö
+g
+java:S2259T"JA "NullPointerException" could be thrown; "getQuerydsl()" can return null.(ïÎ€Ö8Ë§©Ø™1
+N
+java:S1854."9Remove this useless assignment to local variable "count".(•ıê8
+S
+java:S1854,"8Remove this useless assignment to local variable "list".(¤ƒúúûÿÿÿÿ
+D
+java:S1481,")Remove this unused "list" local variable.(¤ƒúúûÿÿÿÿ
+?
+java:S1481."*Remove this unused "count" local variable.(•ıê8
+7	java:S131A""Add a default case to this switch.(ÜŸ•
+h	java:S128q"LEnd this switch case with an unconditional break, return or throw statement.(êİŞÿ8ì Ø™1
+h	java:S128o"LEnd this switch case with an unconditional break, return or throw statement.(‚‰èˆ8ÍÄØ™1
+7	java:S131n""Add a default case to this switch.(ÜŸ•
